@@ -1,38 +1,297 @@
-.App {
-  text-align: center;
+.head{
+  background-image: url(./components/img/Object.png);
+  height: 925px;
+  background-size: cover;
+  margin-bottom: 100px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* ------------------------------------------------------------------Navbar----------------------------------------------------- */
+.navbar{
+  padding: 50px 130px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.right_nav{
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right_nav a{
+  text-decoration: none;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.right_nav button{
+  border-top-right-radius: 15px;
+  background-color: #FFAC12;
+  border: none;
+  padding: 5px 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+
+
+/* --------------------------------------------------------------Head Midle part--------------------------------------------------- */
+
+.headMidle{
+  padding: 100px 130px;
+  color: white;
+}
+
+
+.main_text{
+  width: 550px;
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: -2.010256052017212px;
+  text-align: left;
+
+}
+
+.lorem_text{
+  padding-top: 20px;
+  width: 400px;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.502564013004303px;
+  text-align: left;
+  font-weight: 200;
+}
+
+
+
+
+
+/* -----------------------------------------------------------------Head Button--------------------------------------------------- */
+
+.head_buttons_div{
+  padding: 95px 130px;
+}
+
+
+.head_button{
+  position: relative;
+  height: 100px;
+  width: 100%;
+  border: none;
+  padding-left: 30px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 24px;
+}
+
+
+
+
+/* ----------------------------------------------------------------------First Section--------------------------------------------------- */
+
+.section1{
+  padding: 0 130px;
+  text-align: end;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+
+.firstSectionPhoto{
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 740px;
+  height: 740px;
+}
+
+.firstSectionTExt{
+  margin-left: 800px;
+  margin-top: 150px;
+  width: 500px;
+}
+
+hr{
+  width: 169px;
+  height: 4px;
+  background: linear-gradient(100deg, #FFAC12 0%, #000000 150%);
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.firsSectionH_One{
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.firstSectionLorem{
+  width: 440px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.502564013004303px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.firstSectionButton{
+  padding: 10px 30px;
+  border: none;
+  border-top-right-radius: 15px;
+  background-color: #000000;
+  color: white;
+}
+
+
+
+
+
+/* ------------------------------------------------------------------------Seconf Section------------------------------------------- */
+
+
+.secondSection{
+  padding: 180px 130px 250px 130px ;
+  background-color: #F5F5F5;
+}
+
+.secondSectionH_One{
+  margin-bottom: 50px;
+}
+
+.accordion{
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.accordion-button{
+  width: 400px;
+}
+
+.accordion-body{
+  width: 400px;
+}
+
+.firstCardsLine{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.firstCard{
+  background: white;
+  width: 337px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.firstCardTExt{
+  padding: 20px;
+}
+
+.firstCardIcons{
+  display: flex;
+  justify-content: space-around;
+  width: 320px;
+  margin-top: 30px;
+}
+
+
+/* -----------------------------------------------Third Section------------------------------------- */
+
+.thirdSection{
+  height: 650px;
+  position: relative;
+  padding: 0 130px 0 330px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.thirdSectionText{
+  margin-top: 100px;
+}
+
+.thirdSectionPhoto{
+  position: absolute;
+  top: -100px;
+  right: 0;
+  width: 740px;
+  height: 740px;
+}
+
+
+/* -------------------------------------------------Fourth Section------------------------------------------------- */
+
+.fourthSection{
+  background: linear-gradient(225.52deg, #271A00 0.45%, rgba(0, 0, 0, 0.982162) 100.47%);
+  color: white;
+  display: flex;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  justify-content: center;
+}
+
+
+.fourthSectionButton{
+  border-top-right-radius: 15px;
+  background-color: #FFAC12;
+  border: none;
+  padding: 5px 30px;
+}
+
+
+
+
+/* ------------------------------------------------------Fivth Section--------------------------------------------------- */
+
+.fivthSection{
+  padding: 30px 130px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.fivthCards{
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardlar{
+  padding: 5px;
+  border-radius: 5px;
+  width: 300px;
+  display: flex;
+  border: none;
+}
+
+.cardlar:hover{
+  background: #000000;
+  color: #F5F5F5;
+}
+
+
+/* ------------------------------------------------------Footer--------------------------------------------------- */
+
+.footer{
+  padding: 50px 130px;
+  background: linear-gradient(225.52deg, #271A00 0.45%, rgba(0, 0, 0, 0.982162) 45.25%);
+}
+
+.mainText{
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+
+.endFooter{
+  display: flex;
+  justify-content: space-around;
+}
+
+.footerIcons{
+  margin-top: 15px;
+  width: 130px;
+  display: flex;
+  justify-content: space-between;
 }
